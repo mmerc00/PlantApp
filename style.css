@@ -1,18 +1,42 @@
 .navbar {
-  list-style: none;
+  /*   list-style: none;
   text-align: center;
-  display: grid;
-  grid-auto-flow: column;
+  grid-auto-flow: column; */
 }
-.navbar li {
+.navbar ul li {
   font-family: "Spectral", serif;
+  display: inline-block;
+
   /* font-family: 'Playfair Display SC', serif; */
   /* font-family: 'Playfair Display SC', serif; Regular 400 italic */
 }
-
+.navbar ul {
+  text-align: right;
+}
+/* @media screen and (max-width: 768px) {
+  nav ul {
+    font-size: 9px;
+  }
+} */
 .navbar a {
   text-decoration: none;
   font-size: 18px;
   color: #3a3b3c;
   width: 300px;
+  text-transform: uppercase;
+}
+.navbar ul li:nth-child(1) {
+  float: left;
+}
+.navbar ul li:nth-child(2) {
+  float: left;
+}
+
+.logoArea {
+  width: 100%;
+  position: absolute;
+  left: 30%;
+}
+.nav {
+  position: relative;
 }
