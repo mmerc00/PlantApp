@@ -60,9 +60,13 @@ html {
   height: 500px;
   font-family: "Playfair Display SC", serif;
   word-spacing: 20px;
+  background-image: url("./assets/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .ourPicks {
   display: grid;
+
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
 }
