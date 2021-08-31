@@ -1,28 +1,36 @@
+html {
+  background: #fcf9f6;
+}
+
 .navbar {
-  /*   list-style: none;
+  text-align: center;
+  list-style: none;
+
+  /*   ;
   text-align: center;
   grid-auto-flow: column; */
 }
 .navbar ul li {
   font-family: "Spectral", serif;
+  list-style: none;
   display: inline-block;
 
   /* font-family: 'Playfair Display SC', serif; */
   /* font-family: 'Playfair Display SC', serif; Regular 400 italic */
 }
 .navbar ul {
-  text-align: right;
+  /* text-align: right; */
+  text-align: center;
 }
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   nav ul {
     font-size: 9px;
   }
-} */
+}
 .navbar a {
   text-decoration: none;
   font-size: 18px;
   color: #3a3b3c;
-  width: 300px;
   text-transform: uppercase;
 }
 /* .navbar ul li:nth-child(1) {
@@ -44,4 +52,12 @@
 .hero {
   text-align: center;
   justify-content: center;
+  display: block;
+  padding-top: 80px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 90px;
+  height: 500px;
+  font-family: "Playfair Display SC", serif;
+  word-spacing: 20px;
 }
