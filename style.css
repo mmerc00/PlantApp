@@ -66,6 +66,7 @@ html {
 }
 .ourPicks {
   display: grid;
+  margin-top: 50px;
 
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
@@ -82,4 +83,5 @@ html {
   text-decoration: none;
   font-size: 18px;
   color: #3a3b3c;
+  margin-top: 50px;
 }
