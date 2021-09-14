@@ -21,6 +21,7 @@ html {
 .navbar ul {
   /* text-align: right; */
   text-align: center;
+  width: 100%;
 }
 @media screen and (max-width: 768px) {
   nav ul {
@@ -83,6 +84,7 @@ html {
 .ourPicks {
   align-items: center;
   display: flex;
+  justify-content: center;
 }
 .card {
   width: 300px;
