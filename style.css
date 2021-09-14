@@ -5,10 +5,6 @@ html {
 .navbar {
   text-align: center;
   list-style: none;
-
-  /*   ;
-  text-align: center;
-  grid-auto-flow: column; */
 }
 .navbar ul li {
   font-family: "Spectral", serif;
@@ -19,9 +15,8 @@ html {
   /* font-family: 'Playfair Display SC', serif; Regular 400 italic */
 }
 .navbar ul {
-  /* text-align: right; */
   text-align: center;
-  width: 100%;
+  justify-content: space-between;
 }
 @media screen and (max-width: 768px) {
   nav ul {
@@ -34,18 +29,7 @@ html {
   color: #3a3b3c;
   text-transform: uppercase;
 }
-/* .navbar ul li:nth-child(1) {
-  float: left;
-}
-.navbar ul li:nth-child(2) {
-  float: left;
-}
 
-.logoArea {
-  width: 100%;
-  position: absolute;
-  left: 30%;
-} */
 .nav {
   position: relative;
 }
@@ -122,4 +106,9 @@ html {
   height: 224px;
   object-fit: cover;
   display: block;
+}
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
